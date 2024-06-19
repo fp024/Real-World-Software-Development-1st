@@ -14,12 +14,12 @@ public class BankStatementDAO {
         throw new UnsupportedOperationException();
     }
 
-    public BankTransaction update(final long id) {
+    public BankTransaction update(final BankTransaction bankTransaction) {
         // ...
         throw new UnsupportedOperationException();
     }
 
-    public void delete(final BankTransaction bankTransaction) {
+    public void delete(final long id) {
         // ...
         throw new UnsupportedOperationException();
     }
